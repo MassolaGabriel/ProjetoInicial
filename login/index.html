@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="main.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Login</title>
+</head>
+<body onload="verifyAuthByURL()">
+    <form onsubmit="login(event)" id="form">
+        <div class="container">
+            <label>Email</label>
+            <input type="email" name="email" id="email" placeholder="Type your email..." required/>
+            <br>
+            <label>Password</label>
+            <input type="password" name="password" id="password" placeholder="Type your password..." required />
+            <br>
+            <a href="create.html"><p>Do you not account? Create now</p></a>
+            <button type="submit" class="button">Sign</button>
+        </div>
+    </form>
+</body>
+</html>
