@@ -1,0 +1,12 @@
+    body {
+        margin: 0;
+    }
+
+    .container {
+        display: flex;
+        gap: 7px;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(38, 38, 78);
+        height: 100vh;
+    }
